@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/pico.blue.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Troy Edwards - Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <h1>Troy Edwards - Portfolio</h1>
+            <h3>Language:</h3>
+            <ul>
+                <li><a href="#CSharp-Projects">C#</a></li>
+                <li><a href="#Gleam-Projects">Gleam</a></li>
+                <li><a href="#Rust-Projects">Rust</a></li>
+                <li><a href="#Other-Languages">Other Languages</a></li>
+            </ul>
+        </header>
+        <main>
+            <hr>
+            <section id="CSharp-Projects">
+                <h2>C#</h2>
+                <p>
+                    C# is my most used language, primarily because it's used by Unity. I learned it in the
+                    middle/end of my time at university, and have used it on and off since. When I was choosing an
+                    initial web framework to learn, I went with ASP.Net because I was much more experienced with C# than
+                    Ruby or Python (I hadn't, heard of Elixir or Gleam at the time.)
+                </p>
+                <h3>Projects:</h3>
+                <ul>
+                    <li>
+                        <h4><a href="https://github.com/troy-edwards/TutorSchedules">Tutor Scheduling App</a></h4>
+                        <p>
+                            This is the most complete project on this page. It's an ASP.Net web app I wrote my tutoring
+                            center, so we can easily answer the question "Who can help with this subject?" I made it
+                            March 2025, and originally hosted it on Azure, than moved it to Heroku to lower costs. We've
+                            had a tab at the front desk open to this app since it was launched.
+                        </p>
+                    </li>
+                    <li>
+                        <h4><a href="">"Bulwark" (TODO: Update Href)</a></h4>
+                        <p>
+                            This some of the code from one of my Unity game projects. I didn't use GitHub for Unity
+                            projects, using Unity VCS instead, so the stuff uploaded to GitHub is partial. Also,
+                            because I can't load any store assets to GitHub. I extracted my code to save here.
+                            It contains code for a Scriptable Object Architecture to support rebindable keybinds, a MMO
+                            style movement for grounded, air, and sliding movement, and a MMO style tab target system.
+                            Also, there are both edit and playmode tests for movement, targeting, and the input system.
+                        </p>
+                    </li>
+                    <li>
+                        <h4><a href="https://github.com/troy-edwards/Sudoku">Basic Sudoku Solver with Blazor</a></h4>
+                        <p>Sudoku was popular in the tutoring center around when I tried Blazor, so I made a very quick,
+                            dirty, and simple solver. It mostly does naive solving (i.e. fill squares that only one
+                            option with that option.) It can connect to an external API to load puzzles, or you can
+                            enter a puzzle if you already have one.</p>
+                    </li>
+                </ul>
+            </section>
+            <hr>
+            <section id="Gleam-Projects">
+                <h2>Gleam</h2>
+                <p>I spent a couple of months learning Ruby, before I stumbled onto Elixir and Gleam. I wound up digging
+                    deep into Gleam at first, as I liked that it compiled to run on the Beam for backend, and to
+                    JavaScript for the frontend. I also love that ML/Hidley-Milner type system (which I first discovered
+                    via F# a few months prior.)</p>
+                <h3>Project:</h3>
+                <ul>
+                    <li>
+                        <h4><a href="https://github.com/troy-edwards/math_engine">Gleam Math Engine</a></h4>
+                        <p>A practice project to try out gleam. I thought it would be neat to have a tool that could
+                            simplify expressions and solve equations, ideally by following steps like humans do (i.e.
+                            PEMDAS), rather than just outputting a black box answer like a calculator. It handles some
+                            the P, M, and A in PEMDAS, and I learned a lot about basic parsers. </p>
+                    </li>
+                </ul>
+            </section>
+            <hr>
+            <section id="Rust-Projects">
+                <h2>Rust</h2>
+                <p>
+                    I found Rust while working on the Gleam Math Engine. An explanation of how parsers work used Rust; I
+                    saw it used a similar type system, so I decided to take a look. I found I really like the language.
+                </p>
+                <h3>Projects:</h3>
+                <ul>
+                    <li>
+                        <h4><a href="https://github.com/troy-edwards/engine">ECS Engine</a></h4>
+                        <p>
+                            Back at university I was interested in game engine programming, so as an excuse to use Rust,
+                            I dabbled with making a game engine in Rust. ECS architecture is interesting to me, so I
+                            read up on ECS (examples tend to be in C or C++.) It's not anywhere close to complete, but
+                            the architecture of archetypes and components is mostly done.
+                        </p>
+                    </li>
+                    <li>
+                        <h4><a href="https://github.com/troy-edwards/advent_of_code">Advent of Code (partial 2025)</a>
+                        </h4>
+                        <p>
+                            I learned about advent of code from the Gleam Discord, but was on my Rust kick when December
+                            began, so I started Advent of Code in rust.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <hr>
+            <section id="Other-Languages">
+                <h2>Other Languages</h2>
+                <p>
+                    I don't mentally separate HTML, CSS, and SQL (in the form of ORMs) from their use in ASP.Net,
+                    Blazor, Rails, and Phoenix. I don't call them out specifically, but use them with those other
+                    technologies.
+                </p>
+                <h4>Medium Exposure</h4>
+                <ul>
+                    <li>
+                        <h5>Elixir</h5>
+                        <p><em>Currently Learning!</em> I'm returning to Elixir, after not giving it a fair shake back
+                            when I discovered Elixir and Gleam. I'm still early in my Elixir journey, but much of what I
+                            adored about Ruby is present in Elixir.</p>
+                    </li>
+                    <li>
+                        <h6>C++</h6>
+                        <p>Most of my university classes used C++, so I used to be pretty good with it. However, I
+                            haven't used it since ~2017 beyond tutoring some programming students.</p>
+                    </li>
+                    <li>
+                        <h6>Ruby</h6>
+                        <p>Ruby is a language that I've adored since I first tried it back when I was in University. I
+                            didn't do much with it as my interest back then was not web related. I did give it another
+                            whirl when I did get into web. However, I learned about Elixir and Gleam when I was around
+                            halfway through the "Rails Tutorial" book, and eventually went towards those other languages
+                            instead.</p>
+                    </li>
+                </ul>
+                <h4>Minor Exposure (dabbled)</h4>
+                <ul>
+                    <li>
+                        <h6>JavaScript</h6>
+                        <p>It is hard to avoid JavaScript while doing web related stuff, but I hadn't done much with
+                            JS.</p>
+                    </li>
+                    <li>
+                        <h6>F#</h6>
+                        <p>My introduction to functional programming (if we ignore the half a semester of Haskell
+                            covered in university, which I remember very little of.) I read much of "F# for fun and
+                            profit", which helped lots of functional concepts click for me. However, I didn't go deep
+                            into F# as it seemed very second class compared to C# in the .NET world, both in terms of
+                            framework support and tooling.</p>
+                    </li>
+                    <li>
+                        <h6>Java</h6>
+                        <p>My first programming class used Java. I haven't used it much since, as I'm in general not a
+                            fan of it.</p>
+                    </li>
+                    <li>
+                        <h6>Python</h6>
+                        <p>My second programming class was in Python, the semester before I declared Computer Science
+                            major (at the time I was intending to go into engineering.) I made a terminal based Sudoku
+                            solver as a project with just loops, lists, and functions back then. However, I hadn't used
+                            Python for anything since then.</p>
+                    </li>
+                    <li>
+                        <h6>Dart</h6>
+                        <p>I tried out dart as a way to use one codebase for web and mobile. I started making a music
+                            theory engine with it, but I didn't go that deep.</p>
+                    </li>
+                    <li>
+                        <h6>R</h6>
+                        <p>I very lightly dabbled with some R, partially because Amarillo College's statistics class
+                            used R for assignments for a few semesters (but no longer), and partially because I was
+                            encouraged to apply for a data warehouse job that used R. However, I didn't get the job and
+                            didn't continue with R.</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <p>Last Updated 3-9-2026</p>
+        </footer>
+    </body>
+</html>
