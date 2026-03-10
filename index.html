@@ -9,13 +9,13 @@
     <body>
         <header>
             <h1>Troy Edwards - Portfolio</h1>
-            <h3>Language:</h3>
+            <h3>Projects:</h3>
             <ul>
                 <li><a href="#CSharp-Projects">C#</a></li>
                 <li><a href="#Gleam-Projects">Gleam</a></li>
                 <li><a href="#Rust-Projects">Rust</a></li>
-                <li><a href="#Other-Languages">Other Languages</a></li>
             </ul>
+            <h5><a href="#Other-Languages">Other Languages</a></h5>
         </header>
         <main>
             <hr>
@@ -30,49 +30,64 @@
                 <h3>Projects:</h3>
                 <ul>
                     <li>
-                        <h4><a href="https://github.com/troy-edwards/TutorSchedules">Tutor Scheduling App</a></h4>
+                        <h4><a href="https://github.com/troy-edwards/TutorSchedules" target="_blank">Tutor Scheduling
+                            App</a></h4>
                         <p>
-                            This is the most complete project on this page. It's an ASP.Net web app I wrote my tutoring
-                            center, so we can easily answer the question "Who can help with this subject?" I made it
-                            March 2025, and originally hosted it on Azure, than moved it to Heroku to lower costs. We've
-                            had a tab at the front desk open to this app since it was launched.
+                            This is the most complete project on this page. It's an ASP.Net web app with a postgres
+                            database I wrote for my tutoring center, so we can easily answer the question "Who can help
+                            with this subject?" I made it March 2025, and originally hosted it on Azure, than moved it
+                            to Heroku to lower costs. We've
+                            had this app open in a tab at the front desk open since it was made.
                         </p>
                     </li>
                     <li>
-                        <h4><a href="">"Bulwark" (TODO: Update Href)</a></h4>
+                        <h4><a href="https://github.com/troy-edwards/BulwarkCode" target="_blank">"Bulwark" (Partial MMO
+                            Style Game)</a></h4>
+                        <h6><b>**NOTE: This code will not compile. It's only snippets taken from a project.**</b></h6>
                         <p>
                             This some of the code from one of my Unity game projects. I didn't use GitHub for Unity
                             projects, using Unity VCS instead, so the stuff uploaded to GitHub is partial. Also,
                             because I can't load any store assets to GitHub. I extracted my code to save here.
                             It contains code for a Scriptable Object Architecture to support rebindable keybinds, a MMO
                             style movement for grounded, air, and sliding movement, and a MMO style tab target system.
-                            Also, there are both edit and playmode tests for movement, targeting, and the input system.
+
+
+                            It uses a dependency injection framework called "Init(args)", and there are both edit and
+                            playmode tests for movement, targeting, the input system, and for other various helpers.
                         </p>
                     </li>
                     <li>
-                        <h4><a href="https://github.com/troy-edwards/Sudoku">Basic Sudoku Solver with Blazor</a></h4>
-                        <p>Sudoku was popular in the tutoring center around when I tried Blazor, so I made a very quick,
-                            dirty, and simple solver. It mostly does naive solving (i.e. fill squares that only one
+                        <h4><a href="https://github.com/troy-edwards/Sudoku" target="_blank">Basic Sudoku Solver with
+                            Blazor</a></h4>
+                        <p>Sudoku was popular in the tutoring center around when I tried Blazor, so I made a very
+                            simple, quick,
+                            and dirty Sudoku solver. It mostly does naive solving (i.e. fill squares that only one
                             option with that option.) It can connect to an external API to load puzzles, or you can
-                            enter a puzzle if you already have one.</p>
+                            enter a puzzle manually if you already have one.</p>
                     </li>
                 </ul>
             </section>
             <hr>
             <section id="Gleam-Projects">
                 <h2>Gleam</h2>
-                <p>I spent a couple of months learning Ruby, before I stumbled onto Elixir and Gleam. I wound up digging
+                <p>
+                    I spent a couple of months learning Ruby, before I stumbled onto Elixir and Gleam. I wound up
+                    digging
                     deep into Gleam at first, as I liked that it compiled to run on the Beam for backend, and to
                     JavaScript for the frontend. I also love that ML/Hidley-Milner type system (which I first discovered
-                    via F# a few months prior.)</p>
+                    via F# a few months prior.)
+                </p>
                 <h3>Project:</h3>
                 <ul>
                     <li>
-                        <h4><a href="https://github.com/troy-edwards/math_engine">Gleam Math Engine</a></h4>
-                        <p>A practice project to try out gleam. I thought it would be neat to have a tool that could
+                        <h4><a href="https://github.com/troy-edwards/math_engine" target="_blank">Gleam Math Engine</a>
+                        </h4>
+                        <p>
+                            A practice project to try out gleam. I thought it would be neat to have a tool that could
                             simplify expressions and solve equations, ideally by following steps like humans do (i.e.
                             PEMDAS), rather than just outputting a black box answer like a calculator. It handles some
-                            the P, M, and A in PEMDAS, and I learned a lot about basic parsers. </p>
+                            the P, M, and A in PEMDAS, and I learned a lot about basic parsers.
+                        </p>
                     </li>
                 </ul>
             </section>
@@ -86,7 +101,7 @@
                 <h3>Projects:</h3>
                 <ul>
                     <li>
-                        <h4><a href="https://github.com/troy-edwards/engine">ECS Engine</a></h4>
+                        <h4><a href="https://github.com/troy-edwards/engine" target="_blank">ECS Engine</a></h4>
                         <p>
                             Back at university I was interested in game engine programming, so as an excuse to use Rust,
                             I dabbled with making a game engine in Rust. ECS architecture is interesting to me, so I
@@ -95,11 +110,14 @@
                         </p>
                     </li>
                     <li>
-                        <h4><a href="https://github.com/troy-edwards/advent_of_code">Advent of Code (partial 2025)</a>
+                        <h4><a href="https://github.com/troy-edwards/advent_of_code" target="_blank">Advent of Code
+                            (partial 2025)</a>
                         </h4>
                         <p>
                             I learned about advent of code from the Gleam Discord, but was on my Rust kick when December
-                            began, so I started Advent of Code in rust.
+                            began, so I started Advent of Code in rust. All the days were done with tests, otherwise I'd
+                            have gone crazy. I wish I had a nice system, perhaps from the command line, to chose which
+                            day to run, instead of altering the main each time. I'll definitely do that for next year's.
                         </p>
                     </li>
                 </ul>
@@ -110,7 +128,7 @@
                 <h2>Other Languages</h2>
                 <p>
                     I don't mentally separate HTML, CSS, and SQL (in the form of ORMs) from their use in ASP.Net,
-                    Blazor, Rails, and Phoenix. I don't call them out specifically, but use them with those other
+                    Blazor, Rails, and Phoenix, so I don't call them out specifically, but use them with those other
                     technologies.
                 </p>
                 <h4>Medium Exposure</h4>
@@ -140,7 +158,7 @@
                     <li>
                         <h6>JavaScript</h6>
                         <p>It is hard to avoid JavaScript while doing web related stuff, but I hadn't done much with
-                            JS.</p>
+                            JS on its own.</p>
                     </li>
                     <li>
                         <h6>F#</h6>
